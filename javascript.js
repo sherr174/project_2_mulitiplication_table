@@ -1,4 +1,37 @@
-/* Loop Examples*/
+function getrowsdesired() {
+    /*console.log(document.getElementById('rows').value);*/
+    return Number(document.getElementById('rows').value);
+}
+
+function getcolumnsdesired() {
+    /*console.log(document.getElementById('cols').value);*/
+    return Number(document.getElementById('cols').value);
+}
+
+function creatwithhtmltable(rows, cols) {
+    let string
+    if (rows && cols) {
+        string = "<table>\n"
+
+        for (let row =1; row <= rows; row++) {
+            string += "<tr>\n"
+
+            for (let col =1; col <= cols; col++) {
+                string += "<td>"
+                string += row * col
+                string += "</td>\n"
+            }
+            string += "</tr>\n"
+        }
+        string += "</table>\n"
+    } else {
+        string = 'Provide some inputs'
+    }
+    document.getElementById("output").innerHTML = string;
+}
+
+
+/* Loop Examples
 console.log('here\'s a loop for showing 1...10:\n')
 for (let i = 0; i < 10; i++) {
     console.log(`${ i }\n`)
@@ -41,4 +74,4 @@ let timestable = (to) => {
         console.log(`sorry, ${to} isn't a number!`)
     }
 }
-timestable(12)
+timestable(12)*/
