@@ -43,10 +43,21 @@ section.container {
         table {
             border: 4px solid black;
 
+            tr:first-of-type, tr:last-of-type, td:first-of-type, td:last-of-type {
+                background-color: cornflowerblue;
+            }
+
+            .highlight {
+                background-color: goldenrod;
+            }
+
             td {
                 padding: 2px;
                 text-align: center;
             }
+        }
+        tr:hover {
+            background-color: lightcoral;
         }
     }
 }

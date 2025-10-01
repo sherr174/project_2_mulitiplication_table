@@ -8,16 +8,34 @@ function getcolumnsdesired() {
     return Number(document.getElementById('cols').value);
 }
 
-function creatwithhtmltable(rows, cols) {
+function gethihglightvalue() {
+    let highlightvalue = document.getElementById('highlight').value;
+
+    if (!isNaN(highlightvalue !== '')) {
+        return Number(highlightvalue);
+    }
+}
+
+function creatwithhtmltable(rows, cols, highlight) {
     let string
     if (rows && cols) {
         string = "<table>\n"
 
         for (let row =1; row <= rows; row++) {
-            string += "<tr>\n"
+            if (highlight && highlight === row) {
+                string += "<tr class='highlight'>\n"
+            } else {
+                string += "<tr>\n"
+            }
 
             for (let col =1; col <= cols; col++) {
-                string += "<td>"
+
+                if (highlight && highlight === col) {
+                    string += "<td class='highlight'>\n"
+                } else {
+                    string += "<td>"
+                }
+
                 string += row * col
                 string += "</td>\n"
             }
@@ -29,7 +47,6 @@ function creatwithhtmltable(rows, cols) {
     }
     document.getElementById("output").innerHTML = string;
 }
-
 
 /* Loop Examples
 console.log('here\'s a loop for showing 1...10:\n')

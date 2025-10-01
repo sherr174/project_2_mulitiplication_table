@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Made Button and table to show up with Java and HTML">
+    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Cleaned up presenation of table, about to apply grey bg to first column + row">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759182872287</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleaned up presenation of table, about to apply grey bg to first column + row">
+      <option name="closed" value="true" />
+      <created>1759351831215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759351831215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +138,7 @@
     <MESSAGE value="Made HTML header for table without button" />
     <MESSAGE value="Made HTML header for table without button" />
     <MESSAGE value="Made Button and table to show up with Java and HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Button and table to show up with Java and HTML" />
+    <MESSAGE value="Cleaned up presenation of table, about to apply grey bg to first column + row" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up presenation of table, about to apply grey bg to first column + row" />
   </component>
 </project>
