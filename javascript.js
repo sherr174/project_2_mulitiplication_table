@@ -11,9 +11,17 @@ function getcolumnsdesired() {
 function gethihglightvalue() {
     let highlightvalue = document.getElementById('highlight').value;
 
-    if (!isNaN(highlightvalue !== '')) {
+    if (!isNaN(highlightvalue !== ''))
+    if (document.getElementByID(inputID).value !== null {
         return Number(highlightvalue);
+    } else {
+        console.log('Sorry, could not find find this ID: ', inputID)
     }
+}
+
+/* This method replaces 3 methods above */
+function getinputvalueasnumber (inputID) {
+    return Number(document.getElementById('inputID').value);
 }
 
 function creatwithhtmltable(rows, cols, highlight) {
