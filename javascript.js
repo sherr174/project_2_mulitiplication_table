@@ -1,27 +1,25 @@
-function getrowsdesired() {
-    /*console.log(document.getElementById('rows').value);*/
+/* function getrowsdesired() {
+    console.log(document.getElementById('rows').value);
     return Number(document.getElementById('rows').value);
 }
 
 function getcolumnsdesired() {
-    /*console.log(document.getElementById('cols').value);*/
+    console.log(document.getElementById('cols').value);
     return Number(document.getElementById('cols').value);
 }
 
 function gethihglightvalue() {
-    let highlightvalue = document.getElementById('highlight').value;
-
-    if (!isNaN(highlightvalue !== ''))
-    if (document.getElementByID(inputID).value !== null {
-        return Number(highlightvalue);
-    } else {
-        console.log('Sorry, could not find find this ID: ', inputID)
-    }
-}
+    let highlightvalue = document.getElementById('highlight').value; */
 
 /* This method replaces 3 methods above */
 function getinputvalueasnumber (inputID) {
-    return Number(document.getElementById('inputID').value);
+    if (document.getElementById(inputID)) {
+    if (document.getElementById(inputID).value) {
+        return Number(document.getElementById(inputID).value)
+    }
+} else {
+    console.log('Sorry, couldn\'t find this ID:', inputID)
+    }
 }
 
 function creatwithhtmltable(rows, cols, highlight) {
