@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Added error catching and new function">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Made README.md file at root level for using-flexbox branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759783465359</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Made README.md file at root level for using-flexbox branch">
+      <option name="closed" value="true" />
+      <created>1759956828840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759956828840</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="Cleaned up presenation of table, about to apply grey bg to first column + row" />
     <MESSAGE value="Added highklighted row and started hover" />
     <MESSAGE value="Added error catching and new function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added error catching and new function" />
+    <MESSAGE value="Made README.md file at root level for using-flexbox branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made README.md file at root level for using-flexbox branch" />
   </component>
 </project>

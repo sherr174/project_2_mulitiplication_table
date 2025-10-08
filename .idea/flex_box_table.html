@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Grid Example</title>
+
+    <style>
+        section.columns_of_rows {
+            display: flex;
+                div {
+                    border: 1px solid black;
+            }
+        }
+
+        section.rows_of_columns {
+            border: 1px solid black;
+            padding: 4px;
+
+            div.row{
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid black;
+                padding:4px;
+
+                div {
+                    border: 1px solid black;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tic Tac Tie Style Grid using 3 columns of 3 rows</h1>
+
+<section class="columns_of_rows">
+    <div>
+        <div>Row 1</div>
+        <div>Row 2</div>
+        <div>Row 3</div>
+    </div>
+
+    <div>
+        <div>Row 1</div>
+        <div>Row 2</div>
+        <div>Row 3</div>
+    </div>
+
+    <div>
+        <div>Row 1</div>
+        <div>Row 2</div>
+        <div>Row 3</div>
+    </div>
+</section>
+
+<h1>Tic Tac Tie Style Grid using 3 rows of 3 columns</h1>
+<section class="rows_of_columns">
+    <div class="row">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+    </div>
+
+    <div class="row">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+    </div>
+
+    <div class="row">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+    </div>
+</section>
+
+</body>
+</html>
