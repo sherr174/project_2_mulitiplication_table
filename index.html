@@ -7,30 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <section class="container">
+        <h1>Multiplication Table Project &#129451;</h1>
+        <h3>Create your own multiplication table that is rendered with an HTML table!</h3>
 
-<section class="container">
-    <h1>Multiplication Table Project &#129451;</h1>
-    <h3>Create your own multiplication table that is rendered with an HTML table!</h3>
+        <div class="generate_box">
+            <div class="inputs">
+                <label for="table_row">Rows:
+                    <input id="table_row" type="number" value="12" placeholder="How many rows?"/>
+                </label>
 
-    <div class="generate_box">
-        <div class="inputs">
-            <label for="rows">Rows:
-                <input id="rows" type="number" value="12" placeholder="How many rows?"/>
-            </label>
+                <label for="table_column">Columns:
+                    <input id="table_column" type="number" value="12" placeholder="How many columns?"/>
+                </label>
 
-            <label for="cols">Columns:
-                <input id="cols" type="number" value="12" placeholder="How many columns?"/>
-            </label>
+                <label for="table_highlight">Highlights:
+                    <input id="table_highlight" type="number"  value="" placeholder="What's highlighted?"/>
+                </label>
+            </div>
 
-            <label for="highlight">Highlights:
-                <input id="highlight" type="number"  value="" placeholder="What's highlighted?"/>
-            </label>
+            <button id="generate" onclick="createflextable(getinputvalueasnumber('table_row'), getinputvalueasnumber('table_column'), getinputvalueasnumber('table_highlight'))">Generate Table!</button>
         </div>
 
-        <button id="generate" onclick="creatwithhtmltable(getinputvalueasnumber('rows'), getinputvalueasnumber('cols'), getinputvalueasnumber('highlight'))">Generate Table!</button>
-    </div>
-
-    <div id="output"></div>
+        <div id="output"></div>
 </section>
 
 </body>

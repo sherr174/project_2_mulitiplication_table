@@ -22,32 +22,32 @@ function getinputvalueasnumber (inputID) {
     }
 }
 
-function creatwithhtmltable(rows, cols, highlight) {
+function createflextable(rows, cols, highlight) {
     let string
     if (rows && cols) {
-        string = "<table>\n"
+        string = "<div class='table_container'>\n"
 
         for (let row =1; row <= rows; row++) {
             if (highlight && highlight === row) {
-                string += "<tr class='highlight'>\n"
+                string += "<div class='table_highlight table_row'>\n"
             } else {
-                string += "<tr>\n"
+                string += "<div class='table_row'>"
             }
 
             for (let col =1; col <= cols; col++) {
 
                 if (highlight && highlight === col) {
-                    string += "<td class='highlight'>\n"
+                    string += "<div class='table_highlight table_column'>\n"
                 } else {
-                    string += "<td>"
+                    string += "<div class='table_column'>"
                 }
 
                 string += row * col
-                string += "</td>\n"
+                string += "</div>\n"
             }
-            string += "</tr>\n"
+            string += "</div>\n"
         }
-        string += "</table>\n"
+        string += "</div>\n"
     } else {
         string = 'Provide some inputs'
     }
