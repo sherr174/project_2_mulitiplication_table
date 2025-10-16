@@ -1,100 +1,33 @@
-/* function getrowsdesired() {
-    console.log(document.getElementById('rows').value);
-    return Number(document.getElementById('rows').value);
+function getRowsDesired() {
+    return parseInt(document.getElementById("rows").value)
 }
 
-function getcolumnsdesired() {
-    console.log(document.getElementById('cols').value);
-    return Number(document.getElementById('cols').value);
+function getColumnsDesired() {
+    return parseInt(document.getElementById("cols").value)
 }
 
-function gethihglightvalue() {
-    let highlightvalue = document.getElementById('highlight').value; */
+function createWithFlexbox(rows, cols) {
+    let string = ''
 
-/* This method replaces 3 methods above */
-function getinputvalueasnumber (inputID) {
-    if (document.getElementById(inputID)) {
-    if (document.getElementById(inputID).value) {
-        return Number(document.getElementById(inputID).value)
-    }
-} else {
-    console.log('Sorry, couldn\'t find this ID:', inputID)
-    }
-}
+    // first do-while loop to build the flex'd rows
+    let row = 1
+    do {
+        string += "<div class='row'>"
+        string += row
 
-function createflextable(rows, cols, highlight) {
-    let string
-    if (rows && cols) {
-        string = "<div class='table_container'>\n"
+        // second do-while loop to build the flex'd columns
+        let col = 1
+        do {
+            string += "<div class='col'>"
+            string += row * col
+            string += "</div>"
 
-        for (let row =1; row <= rows; row++) {
-            if (highlight && highlight === row) {
-                string += "<div class='table_highlight table_row'>\n"
-            } else {
-                string += "<div class='table_row'>"
-            }
-
-            for (let col =1; col <= cols; col++) {
-
-                if (highlight && highlight === col) {
-                    string += "<div class='table_highlight table_column'>\n"
-                } else {
-                    string += "<div class='table_column'>"
-                }
-
-                string += row * col
-                string += "</div>\n"
-            }
-            string += "</div>\n"
-        }
+            col = col + 1
+        } while (col <= cols)
         string += "</div>\n"
-    } else {
-        string = 'Provide some inputs'
-    }
-    document.getElementById("output").innerHTML = string;
+
+        row = row + 1;
+    } while (row <= rows)
+
+    document.getElementById("output").innerHTML = string
 }
-
-/* Loop Examples
-console.log('here\'s a loop for showing 1...10:\n')
-for (let i = 0; i < 10; i++) {
-    console.log(`${ i }\n`)
-}
-
-console.log('here\'s a d0-while for showing 1...10:\n')
-let i = 0
-do {
-    console.log(i + `\n`)
-    i++
-} while (i<10)
-
-console.log('here\'s a while for showing 1...10:\n')
-let wil = 0
-while (wil < 10) {
-    console.log(`${ wil }\n`)
-    wil++
-}
-
-console.log('here\'s a foreach loop iterating over an array showing 1...10\n')
-let nums =[...Array(10).keys()]
-nums.forEach(num => {
-    console.log(`${ num }\n`)
-})
-
-console.log('Here\'s a multiplication table method rendered in the console with a for loop:\n')
-console.log('This demos variables, concatenation, for loops, console.logging and methods, along with method paragraph')
-let timestable = (to) => {
-    console.log('Here\'s a times table for to ' + to + '\n')
-
-    if (Number.isInteger(to)) {
-        for (let i = 1; i <= to; i++) {
-            let row = ""
-            for (let j = 1; j <= to; j++) {
-                row += `${i * j}\t`
-            }
-            console.log(row)
-        }
-    } else {
-        console.log(`sorry, ${to} isn't a number!`)
-    }
-}
-timestable(12)*/
