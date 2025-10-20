@@ -1,0 +1,46 @@
+Index: .idea/flex_box_table.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Flexbox Grid Example</title>\n\n    <style>\n        section.columns_of_rows {\n            display: flex;\n                div {\n                    border: 1px solid black;\n            }\n        }\n\n        section.rows_of_columns {\n            border: 1px solid black;\n            padding: 4px;\n\n            div.row{\n                display: flex;\n                justify-content: space-between;\n                border: 1px solid black;\n                padding:4px;\n\n                div {\n                    border: 1px solid black;\n                }\n            }\n        }\n    </style>\n</head>\n<body>\n\n<h1>Tic Tac Tie Style Grid using 3 columns of 3 rows</h1>\n\n<section class=\"columns_of_rows\">\n    <div>\n        <div>Row 1</div>\n        <div>Row 2</div>\n        <div>Row 3</div>\n    </div>\n\n    <div>\n        <div>Row 1</div>\n        <div>Row 2</div>\n        <div>Row 3</div>\n    </div>\n\n    <div>\n        <div>Row 1</div>\n        <div>Row 2</div>\n        <div>Row 3</div>\n    </div>\n</section>\n\n<h1>Tic Tac Tie Style Grid using 3 rows of 3 columns</h1>\n<section class=\"rows_of_columns\">\n    <div class=\"row\">\n        <div>Column 1</div>\n        <div>Column 2</div>\n        <div>Column 3</div>\n    </div>\n\n    <div class=\"row\">\n        <div>Column 1</div>\n        <div>Column 2</div>\n        <div>Column 3</div>\n    </div>\n\n    <div class=\"row\">\n        <div>Column 1</div>\n        <div>Column 2</div>\n        <div>Column 3</div>\n    </div>\n</section>\n\n</body>\n</html>
+===================================================================
+diff --git a/.idea/flex_box_table.html b/.idea/flex_box_table.html
+--- a/.idea/flex_box_table.html	(revision 4f7ec3d89ded862eef775c10d6453668afccb524)
++++ b/.idea/flex_box_table.html	(date 1760496196933)
+@@ -2,7 +2,7 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Flexbox Grid Example</title>
++    <title>Multiplication table rendered in Flexbox</title>
+ 
+     <style>
+         section.columns_of_rows {
+@@ -31,7 +31,7 @@
+ </head>
+ <body>
+ 
+-<h1>Tic Tac Tie Style Grid using 3 columns of 3 rows</h1>
++<h1>Create your own multiplication table that is rendered with Flexbox! </h1>
+ 
+ <section class="columns_of_rows">
+     <div>
+@@ -51,9 +51,10 @@
+         <div>Row 2</div>
+         <div>Row 3</div>
+     </div>
++/*
+ </section>
+ 
+-<h1>Tic Tac Tie Style Grid using 3 rows of 3 columns</h1>
++<h1>Tic Tac Toe Style Grid using 3 rows of 3 columns</h1>
+ <section class="rows_of_columns">
+     <div class="row">
+         <div>Column 1</div>
+@@ -73,6 +74,5 @@
+         <div>Column 3</div>
+     </div>
+ </section>
+-
+ </body>
+ </html>
+\ No newline at end of file
