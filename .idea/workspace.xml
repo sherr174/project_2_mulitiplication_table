@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="New flexbox html and cleaned up style sheet and javascript">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Created README file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +84,8 @@
       <updated>1758574118642</updated>
       <workItem from="1758574119693" duration="7771000" />
       <workItem from="1760574516588" duration="3485000" />
+      <workItem from="1760581078062" duration="216000" />
+      <workItem from="1760990747611" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="added times table">
       <option name="closed" value="true" />
@@ -149,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760578323384</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created README file">
+      <option name="closed" value="true" />
+      <created>1760581172644</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760581172644</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +186,7 @@
     <MESSAGE value="Added error catching and new function" />
     <MESSAGE value="Fixed bugs and using 1 function instead of 3" />
     <MESSAGE value="New flexbox html and cleaned up style sheet and javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="New flexbox html and cleaned up style sheet and javascript" />
+    <MESSAGE value="Created README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created README file" />
   </component>
 </project>
