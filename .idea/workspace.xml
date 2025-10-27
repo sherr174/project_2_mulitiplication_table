@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Added conditional logic">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25,_2_08 PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25,_2_09 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25,_7_25 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25,_7_26 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25,_7_28 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25__2_08PM__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25__2_09PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25__7_25PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25__7_26PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_15_25__7_28PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Wrapped up multiplication table exercise">
+      <change afterPath="$PROJECT_DIR$/vue_in_class/src/Components/navbar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_in_class/src/views/multiplication_table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/views/multiplication_table.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_in_class/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +97,7 @@
       <workItem from="1760581078062" duration="216000" />
       <workItem from="1760990747611" duration="44000" />
       <workItem from="1760991626037" duration="13130000" />
-      <workItem from="1761595019536" duration="2905000" />
+      <workItem from="1761595019536" duration="4472000" />
     </task>
     <task id="LOCAL-00001" summary="added times table">
       <option name="closed" value="true" />
@@ -212,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761170239659</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Wrapped up multiplication table exercise">
+      <option name="closed" value="true" />
+      <created>1761598164343</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761598164343</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +243,7 @@
     <MESSAGE value="Stood up multiplicatoin table project and build intial routing, and wip on the page itself." />
     <MESSAGE value="Added about me page, updated router to support this, applied a simple design to the app.vue file that applies to all component, completed basic multplication table in my demo file" />
     <MESSAGE value="Added conditional logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added conditional logic" />
+    <MESSAGE value="Wrapped up multiplication table exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrapped up multiplication table exercise" />
   </component>
 </project>
