@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Made navbar component">
-      <change afterPath="$PROJECT_DIR$/vue_in_class/src/Components/my_button.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_in_class/src/data/portfolio.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_in_class/src/views/portfolio/all_items.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_in_class/src/Components/navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/Components/navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_in_class/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_in_class/src/views/multiplication_table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/views/multiplication_table.vue" afterDir="false" />
-    </list>
+    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Made portfolio data page and component" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +93,7 @@
       <workItem from="1760581078062" duration="216000" />
       <workItem from="1760990747611" duration="44000" />
       <workItem from="1760991626037" duration="13130000" />
-      <workItem from="1761595019536" duration="15191000" />
+      <workItem from="1761595019536" duration="15387000" />
     </task>
     <task id="LOCAL-00001" summary="added times table">
       <option name="closed" value="true" />
@@ -223,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761599528372</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Made portfolio data page and component">
+      <option name="closed" value="true" />
+      <created>1761774826460</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761774826460</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +257,7 @@
     <MESSAGE value="Added conditional logic" />
     <MESSAGE value="Wrapped up multiplication table exercise" />
     <MESSAGE value="Made navbar component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made navbar component" />
+    <MESSAGE value="Made portfolio data page and component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made portfolio data page and component" />
   </component>
 </project>
