@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Made portfolio data page and component" />
+    <list default="true" id="a3d0187d-4671-4377-b1e1-80c1d85c68bc" name="Changes" comment="Made portfolio data page and component">
+      <change afterPath="$PROJECT_DIR$/vue_in_class/src/views/portfolio/portfolio_item_details.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_in_class/src/Components/navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/Components/navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_in_class/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_in_class/src/views/portfolio/all_items.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_in_class/src/views/portfolio/all_items.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +99,7 @@
       <workItem from="1760581078062" duration="216000" />
       <workItem from="1760990747611" duration="44000" />
       <workItem from="1760991626037" duration="13130000" />
-      <workItem from="1761595019536" duration="15387000" />
+      <workItem from="1761595019536" duration="20883000" />
     </task>
     <task id="LOCAL-00001" summary="added times table">
       <option name="closed" value="true" />
@@ -223,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761774826460</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Made portfolio data page and component">
+      <option name="closed" value="true" />
+      <created>1762203916351</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1762203916351</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
